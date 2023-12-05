@@ -130,33 +130,4 @@ button#igual{
     color: #000;
 }
 
-/*tema.escuro*/
-
-.calculator.dark {
-    background-color: #071115;
-}
-
-.calculator.dark #display{
-color: #f8fafd;
-}
-
-.calculator.dark button#clear{
-    background-color: #2d191e;
-    color: #bd3740;
-}
-
-.calculator.dark button.btn-number{
-background-color: #1b2f38;
-color: #f8fafb;
-}
-
-.calculator.dark button.btn-operator{
-    background-color: #2e1f39;
-    color: #aa00a4;
-}
-
-.calculator.dark button.btn-igual{
-    background-color: #223323;
-    column-rule: #ffffff;
-}
 
