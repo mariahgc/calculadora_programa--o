@@ -1,21 +1,4 @@
 /*.calculadora e fundo.*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: 0;
-    transition: all 0.5s ease;
-}
-
-body {
-    font-family: sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
 body {
     background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1.0), rgba(210, 53, 165));
 }
@@ -39,7 +22,6 @@ body {
 #display {
     margin: o 10px;
     height: 150px;
-    width: auto;
     max-width: 270px;
     display: flex;
     align-items: flex-end;
@@ -63,10 +45,6 @@ button {
 
 button:hover {
     transform: scale(1.1);
-}
-
-button#igual {
-    height: 120px;
 }
 
 /*.cor.clara.*/
